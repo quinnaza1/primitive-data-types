@@ -130,7 +130,8 @@ let getFirstFourCharacters = "You need my first four characters"
 //
 ////////////////////// YOUR CODE BELOW THIS LINE ///////////////////////
 
-let firstFourCharacters
+let firstFourCharacters = getFirstFourCharacters.substring(0,4);
+console.log(firstFourCharacters);
 
 ////////////////////////////////////////////////////////////////////////
 
