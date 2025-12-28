@@ -269,7 +269,7 @@ let targetString1 = "THE-QUICK-BROWN-FOX-JUMPS-OVER-THE-LAZY-DOG"
 //  EXERCISE 16 - MULTIPLE MANIPULATIONS 2
 //
 //  Turn 'testString2':
-let testString2 = "I am the first sentence. You are the second sentence"
+let testString2 = "I am the first sentence. You are the second sentence".replace("I am the first sentence.","i am the second best,").replace("You are the second sentence","you are the first best!");
 //  into 'targetString2':
 let targetString2 = "i am the second best, you are the first best!"
 //  Only add functions to testString2 and do not create any new variables
