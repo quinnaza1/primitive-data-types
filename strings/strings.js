@@ -97,8 +97,8 @@ let subStringIgnoreCase = "friends"
 //
 ////////////////////// YOUR CODE BELOW THIS LINE ///////////////////////
 
-let stringContainsIgnoreCase
-
+let stringContainsIgnoreCase =mainStringIgnoreCase.includes(subString);
+console.log(stringContainsIgnoreCase);
 ////////////////////////////////////////////////////////////////////////
 
 
