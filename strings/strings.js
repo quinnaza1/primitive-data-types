@@ -184,7 +184,8 @@ let checkEquality2 = "Are we equal?"
 //
 ////////////////////// YOUR CODE BELOW THIS LINE ///////////////////////
 
-let stringsAreEqual
+let stringsAreEqual  = checkEquality1 === checkEquality2;
+console.log(stringsAreEqual);
 
 ////////////////////////////////////////////////////////////////////////
 
