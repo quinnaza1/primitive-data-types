@@ -203,7 +203,8 @@ let checkEqualityIgnoreCase2 = "are we EQUAL?"
 //
 ////////////////////// YOUR CODE BELOW THIS LINE ///////////////////////
 
-let stringsAreEqualIgnoreCase
+let stringsAreEqualIgnoreCase = checkEqualityIgnoreCase1.toLowerCase() == checkEqualityIgnoreCase2.toLowerCase();
+console.log(stringsAreEqualIgnoreCase);
 
 ////////////////////////////////////////////////////////////////////////
 
