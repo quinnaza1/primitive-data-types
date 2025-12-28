@@ -147,7 +147,8 @@ let getLastCharacter = "You need my last character"
 //
 ////////////////////// YOUR CODE BELOW THIS LINE ///////////////////////
 
-let lastCharacter
+let lastCharacter = getLastCharacter.charAt(getLastCharacter.length-1);
+console.log(lastCharacter);
 
 ////////////////////////////////////////////////////////////////////////
 
