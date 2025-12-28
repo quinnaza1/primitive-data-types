@@ -164,7 +164,9 @@ let getLastSixCharacters = "You need my last six characters"
 //
 ////////////////////// YOUR CODE BELOW THIS LINE ///////////////////////
 
-let lastSixCharacters
+let lastSixCharacters = getLastSixCharacters.slice(-6);
+console.log(lastSixCharacters);
+
 
 ////////////////////////////////////////////////////////////////////////
 
