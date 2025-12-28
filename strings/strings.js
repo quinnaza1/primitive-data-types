@@ -22,7 +22,8 @@ let getMyDataType = "This is a string"
 //
 ////////////////////// YOUR CODE BELOW THIS LINE ///////////////////////
 
-let gotDataType
+let gotDataType =typeof getMyDataType;;
+console.log(gotDataType);
 
 ////////////////////////////////////////////////////////////////////////
 
