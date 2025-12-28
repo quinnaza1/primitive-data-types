@@ -59,7 +59,8 @@ let concat3 = "father!"
 //
 ////////////////////// YOUR CODE BELOW THIS LINE ///////////////////////
 
-let concatStrings
+let concatStrings = concat1.concat(concat2,concat3);
+console.log(concatStrings);
 
 ////////////////////////////////////////////////////////////////////////
 
