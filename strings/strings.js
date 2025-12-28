@@ -113,7 +113,8 @@ let getFirstCharacter = "You need my first character"
 //
 ////////////////////// YOUR CODE BELOW THIS LINE ///////////////////////
 
-let firstCharacter
+let firstCharacter = getFirstCharacter.charAt(0);
+console.log(firstCharacter);
 
 ////////////////////////////////////////////////////////////////////////
 
