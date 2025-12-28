@@ -39,7 +39,8 @@ let getMyLenght = "Get the length of this string"
 //
 ////////////////////// YOUR CODE BELOW THIS LINE ///////////////////////
 
-let myLength
+let myLength = getMyLenght.length;
+console.log(myLength);
 
 ////////////////////////////////////////////////////////////////////////
 
