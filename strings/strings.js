@@ -250,7 +250,7 @@ console.log(removedString);
 //  EXERCISE 15 - MULTIPLE MANIPULATIONS 1
 //
 //  Turn 'testString1':
-let testString1 = "The quick brown fox jumps over the lazy dog"
+let testString1 = "The quick brown fox jumps over the lazy dog".toUpperCase().replaceAll(" ","-");
 //  into 'targetString1':
 let targetString1 = "THE-QUICK-BROWN-FOX-JUMPS-OVER-THE-LAZY-DOG"
 //  NOTE: Only add functions to testString1 and do not create any new variables
