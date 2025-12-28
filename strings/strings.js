@@ -78,7 +78,8 @@ let subString = "out"
 //
 ////////////////////// YOUR CODE BELOW THIS LINE ///////////////////////
 
-let stringContains
+let stringContains = mainString.includes(subString);
+console.log(stringContains);
 
 ////////////////////////////////////////////////////////////////////////
 
