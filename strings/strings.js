@@ -220,7 +220,8 @@ let replaceMe = "John just moved to Montreal. John will be meeting his roomate s
 //
 ////////////////////// YOUR CODE BELOW THIS LINE ///////////////////////
 
-let replacedString
+let replacedString = replaceMe.replaceAll("John","Michael");
+console.log(replacedString);
 
 ////////////////////////////////////////////////////////////////////////
 
