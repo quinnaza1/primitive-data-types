@@ -298,13 +298,13 @@ let escapedString
 //
 ////////////////////// YOUR CODE BELOW THIS LINE ///////////////////////
 
-// escapedString = "My professor said: \"Study hard and you will succeed\" \nI replied: \"Thanks for the tip!\""
+ escapedString = "My professor said: \"Study hard and you will succeed\" \nI replied: \"Thanks for the tip!\"";
 
 ////////////////////////////////////////////////////////////////////////
 
 
-
 /////////////////////// END OF STRINGS EXERCISES ///////////////////////
+
 
 
 
