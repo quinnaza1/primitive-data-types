@@ -238,7 +238,8 @@ let removeMe = "We will going to be leaving at noon sharp."
 //
 ////////////////////// YOUR CODE BELOW THIS LINE ///////////////////////
 
-let removedString
+let removedString = removeMe.replace("going to be","be");
+console.log(removedString);
 
 ////////////////////////////////////////////////////////////////////////
 
