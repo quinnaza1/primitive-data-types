@@ -199,8 +199,8 @@ checkEquality2 = "Are we equal?"
 #
 ###################### YOUR CODE BELOW THIS LINE #######################
 
-stringsAreEqual = None
-
+stringsAreEqual = checkEquality1 == checkEquality2
+print(stringsAreEqual) 
 ########################################################################
 
 
