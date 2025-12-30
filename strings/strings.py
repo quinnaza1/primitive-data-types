@@ -233,8 +233,8 @@ replaceMe = "John just moved to Montreal. John will be meeting his roomate soon.
 #
 ###################### YOUR CODE BELOW THIS LINE #######################
 
-replacedString = None
-
+replacedString = replaceMe.replace("John", "Michael")
+print(replacedString)
 ########################################################################
 
 
