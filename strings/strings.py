@@ -199,8 +199,8 @@ checkEquality2 = "Are we equal?"
 #
 ###################### YOUR CODE BELOW THIS LINE #######################
 
-stringsAreEqual = checkEquality1 == checkEquality2
-print(stringsAreEqual) 
+stringsAreEqual = None
+
 ########################################################################
 
 
@@ -217,8 +217,8 @@ checkEqualityIgnoreCase2 = "are we EQUAL?"
 #
 ###################### YOUR CODE BELOW THIS LINE #######################
 
-stringsAreEqualIgnoreCase = None
-
+stringsAreEqualIgnoreCase = checkEqualityIgnoreCase1.lower() == checkEqualityIgnoreCase2.lower()
+print(stringsAreEqualIgnoreCase)
 ########################################################################
 
 
