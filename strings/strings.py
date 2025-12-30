@@ -296,8 +296,15 @@ targetString2 = "i am the second best, you are the first best!"
 #
 ###################### YOUR CODE BELOW THIS LINE #######################
 
-testString2 = None
+# Step 1: Lowercase everything
+testString2 = testString2.lower()
 
+# Step 2: Replace "first" with "second best," and "second" with "first best"
+testString2 = testString2.replace("first sentence.", "second best,").replace("second sentence", "first best!")
+
+
+
+print(targetString2)  # Outputs: i am the second best, you are the first best!
 ########################################################################
 
 
