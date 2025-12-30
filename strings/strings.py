@@ -181,8 +181,8 @@ getLastFourCharacters = "You need my last four characters don't ya?"
 #
 ###################### YOUR CODE BELOW THIS LINE #######################
 
-lastFourCharacters = None
-
+lastFourCharacters = getLastFourCharacters[-4:]
+print(lastFourCharacters) 
 ########################################################################
 
 
