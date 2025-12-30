@@ -165,8 +165,8 @@ getLastCharacter = "You need my last character don't ya?"
 #
 ###################### YOUR CODE BELOW THIS LINE #######################
 
-lastCharacter = None
-
+lastCharacter = getLastCharacter[-1]
+print(lastCharacter)
 ########################################################################
 
 
