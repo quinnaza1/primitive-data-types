@@ -149,8 +149,8 @@ getFirstSevenCharacters = "You need my first seven characters"
 #
 ###################### YOUR CODE BELOW THIS LINE #######################
 
-firstSevenCharacters = None
-
+firstSevenCharacters = getFirstSevenCharacters[:7]
+print(firstSevenCharacters)
 ########################################################################
 
 
