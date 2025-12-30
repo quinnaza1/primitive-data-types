@@ -250,8 +250,8 @@ removeMe = "We will going to be leaving at noon sharp."
 #
 ###################### YOUR CODE BELOW THIS LINE #######################
 
-removedString = None
-
+removedString = removeMe.replace("going to", "")
+print(removedString)
 ########################################################################
 
 
