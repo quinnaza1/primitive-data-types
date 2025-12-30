@@ -199,8 +199,8 @@ checkEquality2 = "Are we equal?"
 #
 ###################### YOUR CODE BELOW THIS LINE #######################
 
-stringsAreEqual = None
-
+stringsAreEqual = checkEquality1 == checkEquality2
+print(stringsAreEqual)
 ########################################################################
 
 
@@ -250,7 +250,8 @@ removeMe = "We will going to be leaving at noon sharp."
 #
 ###################### YOUR CODE BELOW THIS LINE #######################
 
-removedString = removeMe.replace("going to", "")
+removeMe = "We will going to be leaving at noon sharp."
+removedString = removeMe.replace("going to be", "be")
 print(removedString)
 ########################################################################
 
@@ -272,7 +273,10 @@ targetString1 = "THE-QUICK-BROWN-FOX-JUMPS-OVER-THE-LAZY-DOG"
 ###################### YOUR CODE BELOW THIS LINE #######################
 
 
-
+testString1 = "The quick brown fox jumps over the lazy dog"
+testString1 = testString1.upper().replace(" ", "-")
+targetString1 = testString1
+print(targetString1)
 ########################################################################
 
 
