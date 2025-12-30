@@ -6,7 +6,7 @@
 #
 ###################### YOUR CODE BELOW THIS LINE #######################
 
-newString = None
+newString = "Hello from python"
 
 ########################################################################
 
@@ -22,8 +22,9 @@ getMyDataType = "This is a string"
 #
 ###################### YOUR CODE BELOW THIS LINE #######################
 
-gotDataType = None
-
+getMyDataType = "This is a string"
+gotDataType = type(getMyDataType)
+print(gotDataType)
 ########################################################################
 
 
@@ -39,8 +40,9 @@ getMyLenght = "Get the length of this string"
 #
 ###################### YOUR CODE BELOW THIS LINE #######################
 
-myLength = None
-
+getMyLenght = "Get the length of this string"
+myLength = len(getMyLenght)
+print(myLength)
 ########################################################################
 
 
@@ -58,8 +60,8 @@ concat3 = "father!"
 #
 ###################### YOUR CODE BELOW THIS LINE #######################
 
-concatStrings = None
-
+concatStrings = concat1 + concat2 + concat3
+print(concatStrings)
 ########################################################################
 
 
@@ -78,8 +80,9 @@ repeatMe = "Let it snow! "
 #
 ###################### YOUR CODE BELOW THIS LINE #######################
 
-repeatedString = None
-
+repeatMe = "Let it snow! "
+repeatedString = repeatMe * repeatTimes
+print(repeatedString)
 ########################################################################
 
 
@@ -96,8 +99,8 @@ subString = "out"
 #
 ###################### YOUR CODE BELOW THIS LINE #######################
 
-stringContains = None
-
+stringContains = subString in mainString
+print(stringContains)
 ########################################################################
 
 
@@ -114,8 +117,8 @@ subStringToFind = "best"
 #
 ###################### YOUR CODE BELOW THIS LINE #######################
 
-foundSubstringIndex = None
-
+foundSubstringIndex = findSubstring.find(subStringToFind)
+print(foundSubstringIndex)
 ########################################################################
 
 
@@ -130,8 +133,8 @@ getFirstCharacter = "You need my first character"
 #
 ###################### YOUR CODE BELOW THIS LINE #######################
 
-firstCharacter = None
-
+firstCharacter = getFirstCharacter[0]
+print(firstCharacter)
 ########################################################################
 
 
